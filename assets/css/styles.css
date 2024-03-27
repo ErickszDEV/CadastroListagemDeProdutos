@@ -1,0 +1,72 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 10px auto 0 ;
+    padding: 20px;
+    background: transparent;
+    border-radius: 20px;
+}
+
+form,
+table {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px 0;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    margin-top: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+#newProductButton {
+    display: block;
+    margin: 0 auto;
+}
